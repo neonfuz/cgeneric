@@ -1,0 +1,3 @@
+* C Generic
+This is just a little project I'm starting to mess around with ways of doing
+generics in c.
