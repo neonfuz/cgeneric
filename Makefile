@@ -1,6 +1,6 @@
 
-main: *.c
-	$(CC) $(CFLAGS) -o main main.c *.c
+main: *.c types/*.h
+	$(CC) $(CFLAGS) -o main main.c
 
 clean:
 	rm main
