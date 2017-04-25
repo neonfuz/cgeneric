@@ -29,7 +29,6 @@ int main(int argc, char *argv[])
         printf("Popped %d\n", Vector_int_pop(&myVec));
     }
 
-    
     return 0;
 }
 

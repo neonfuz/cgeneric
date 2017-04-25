@@ -1,12 +1,11 @@
 
 #define Vector(T) Vector_ ## T
-#define Vector_s(T) Vector_ ## T ## _s
 
 #define Vector_method(T, name) Vector_ ## T ## _ ## name
 
 #define implement_Vector(T)                                             \
                                                                         \
-    typedef struct Vector_s(T) {                                        \
+    typedef struct Vector {                                             \
         size_t size;                                                    \
         size_t length;                                                  \
         T* data;                                                        \
